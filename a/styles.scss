@@ -1,0 +1,5 @@
+@use "../b/lib";
+
+.styles {
+    @include lib.mix1;
+}

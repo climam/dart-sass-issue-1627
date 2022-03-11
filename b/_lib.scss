@@ -1,0 +1,5 @@
+@use "sass:meta";
+
+@mixin mix1() {
+    @include meta.load-css("test/core");
+}
